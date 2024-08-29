@@ -1,0 +1,150 @@
+* {
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    background-color: black;
+    z-index: 5;
+}
+
+header>img {
+    height: 50px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 10px;
+}
+
+nav>ul>li {
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+.mission-section {
+    margin-top: 69px;
+    width: 100%;
+    height: 700px;
+    background-image: url("../Img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.mission-wrapper {
+
+    width: 100%;
+    ;
+}
+
+
+.featured-section {
+    margin-top: 69px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.featured-wrapper {
+
+    width: 1000px;
+}
+
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-box {}
+
+.img-box>img {
+    width: 300px;
+    height: 200px;
+}
+
+.img-box>p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.location-section {
+    margin-top: 69px;
+    width: 100%;
+    height: 500px;
+    background-image: url("../Img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.location-section > h2{
+    background-color: transparent;
+}
+
+.location-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.location-box{
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.copyright{
+    float:left;
+}
